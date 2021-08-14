@@ -1,0 +1,65 @@
+/*Notas*/ 
+/*--codigo de prueba nulo
+function Holamundo(props){
+  /*console.log(props)text comenetado*/
+ /* return(
+    <div id="hola"> 
+      <h3>{props.subtitle}</h3>
+      {props.mitexto} 
+    </div>
+  );
+}*/
+/*class Holamundo extends React.Component {
+
+  state = {
+    show: true
+  }
+
+  toggleShow = () => {
+    this.setState({show: !this.state.show})
+  }
+
+  render(){
+    if(this.state.show){
+      return (
+        <div id="hola"> 
+          <h3>{this.props.subtitle}</h3>
+          {this.props.mitexto} 
+          <button onClick={this.toggleShow}>Cambiar estado</button>
+        </div>
+        
+      )
+    } else{
+      
+      return <h1>
+        Elemento no encontrado
+        <button onClick={this.toggleShow}> 
+          Regresar
+        </button>
+      </h1> 
+    }  
+  }
+}
+
+/*-componente a travez de una función simple de js */
+/*function App() {
+  return(
+   <div>
+     Este es mi componente: 
+     <Holamundo mitexto="Hola, hola" subtitle="Lorem ispum"/> 
+     <Holamundo mitexto="Hola mundo" subtitle="Y todo lo que en habita"/> 
+     <Holamundo mitexto="Hola día" subtitle="Cielo, sol y nuves"/> 
+    </div>
+  );
+}*/
+/* 3 enfoques de una mismo componente 
+-componente de funcion flecha (en un a sola linea de codigo)
+const App = () => <div>Este es mi componente: <Holamundo/> </div>
+
+-componente atravez de una clase
+class App extends React.Component {
+  render(){
+    return <div>Este es mi componente: <Holamundo/> </div>
+  }
+
+}*/
